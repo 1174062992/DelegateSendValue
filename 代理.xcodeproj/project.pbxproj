@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		653407B2D416EA6EE14AFC31 /* libPods-代理.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 526B0520671EFABC3B0B6D6E /* libPods-代理.a */; };
 		A44067E82050DDFD007566E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A44067E72050DDFD007566E1 /* AppDelegate.m */; };
-		A44067EB2050DDFD007566E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A44067EA2050DDFD007566E1 /* ViewController.m */; };
-		A44067EE2050DDFD007566E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44067EC2050DDFD007566E1 /* Main.storyboard */; };
 		A44067F02050DDFD007566E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A44067EF2050DDFD007566E1 /* Assets.xcassets */; };
-		A44067F32050DDFD007566E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44067F12050DDFD007566E1 /* LaunchScreen.storyboard */; };
 		A44067F62050DDFD007566E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A44067F52050DDFD007566E1 /* main.m */; };
 		A44068002050DDFD007566E1 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A44067FF2050DDFD007566E1 /* __Tests.m */; };
 		A440680B2050DDFD007566E1 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A440680A2050DDFD007566E1 /* __UITests.m */; };
+		A440681A2050DE33007566E1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A44068192050DE33007566E1 /* FirstViewController.m */; };
+		A440681D2050DE54007566E1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A440681C2050DE54007566E1 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38B38325FE9EFEE6A2C0053F /* Pods-代理.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-代理.release.xcconfig"; path = "Pods/Target Support Files/Pods-代理/Pods-代理.release.xcconfig"; sourceTree = "<group>"; };
+		526B0520671EFABC3B0B6D6E /* libPods-代理.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-代理.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88824BADD97B0810FDEC2E0D /* Pods-代理.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-代理.debug.xcconfig"; path = "Pods/Target Support Files/Pods-代理/Pods-代理.debug.xcconfig"; sourceTree = "<group>"; };
 		A44067E32050DDFD007566E1 /* 代理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "代理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A44067E62050DDFD007566E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A44067E72050DDFD007566E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A44067E92050DDFD007566E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A44067EA2050DDFD007566E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A44067ED2050DDFD007566E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A44067EF2050DDFD007566E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A44067F22050DDFD007566E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A44067F42050DDFD007566E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A44067F52050DDFD007566E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A44067FB2050DDFD007566E1 /* 代理Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "代理Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +50,10 @@
 		A44068062050DDFD007566E1 /* 代理UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "代理UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A440680A2050DDFD007566E1 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		A440680C2050DDFD007566E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44068182050DE33007566E1 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A44068192050DE33007566E1 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A440681B2050DE54007566E1 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A440681C2050DE54007566E1 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				653407B2D416EA6EE14AFC31 /* libPods-代理.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75B97502E5AF7D71E16BDED3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88824BADD97B0810FDEC2E0D /* Pods-代理.debug.xcconfig */,
+				38B38325FE9EFEE6A2C0053F /* Pods-代理.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A44067DA2050DDFD007566E1 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +98,8 @@
 				A44067FE2050DDFD007566E1 /* 代理Tests */,
 				A44068092050DDFD007566E1 /* 代理UITests */,
 				A44067E42050DDFD007566E1 /* Products */,
+				75B97502E5AF7D71E16BDED3 /* Pods */,
+				AE9107716E102CF5451D1F70 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +118,11 @@
 			children = (
 				A44067E62050DDFD007566E1 /* AppDelegate.h */,
 				A44067E72050DDFD007566E1 /* AppDelegate.m */,
-				A44067E92050DDFD007566E1 /* ViewController.h */,
-				A44067EA2050DDFD007566E1 /* ViewController.m */,
-				A44067EC2050DDFD007566E1 /* Main.storyboard */,
+				A44068182050DE33007566E1 /* FirstViewController.h */,
+				A44068192050DE33007566E1 /* FirstViewController.m */,
+				A440681B2050DE54007566E1 /* SecondViewController.h */,
+				A440681C2050DE54007566E1 /* SecondViewController.m */,
 				A44067EF2050DDFD007566E1 /* Assets.xcassets */,
-				A44067F12050DDFD007566E1 /* LaunchScreen.storyboard */,
 				A44067F42050DDFD007566E1 /* Info.plist */,
 				A44067F52050DDFD007566E1 /* main.m */,
 			);
@@ -132,6 +147,14 @@
 			path = "代理UITests";
 			sourceTree = "<group>";
 		};
+		AE9107716E102CF5451D1F70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				526B0520671EFABC3B0B6D6E /* libPods-代理.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A440680F2050DDFD007566E1 /* Build configuration list for PBXNativeTarget "代理" */;
 			buildPhases = (
+				47E15C93D28B7E821486772B /* [CP] Check Pods Manifest.lock */,
 				A44067DF2050DDFD007566E1 /* Sources */,
 				A44067E02050DDFD007566E1 /* Frameworks */,
 				A44067E12050DDFD007566E1 /* Resources */,
+				709267873BD6A97E873D5A20 /* [CP] Embed Pods Frameworks */,
+				0C81BFE4254BD907444CC492 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,9 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A44067F32050DDFD007566E1 /* LaunchScreen.storyboard in Resources */,
 				A44067F02050DDFD007566E1 /* Assets.xcassets in Resources */,
-				A44067EE2050DDFD007566E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,13 +284,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C81BFE4254BD907444CC492 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-代理/Pods-代理-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47E15C93D28B7E821486772B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		709267873BD6A97E873D5A20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-代理/Pods-代理-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A44067DF2050DDFD007566E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A44067EB2050DDFD007566E1 /* ViewController.m in Sources */,
+				A440681D2050DE54007566E1 /* SecondViewController.m in Sources */,
 				A44067F62050DDFD007566E1 /* main.m in Sources */,
+				A440681A2050DE33007566E1 /* FirstViewController.m in Sources */,
 				A44067E82050DDFD007566E1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,25 +374,6 @@
 			targetProxy = A44068072050DDFD007566E1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A44067EC2050DDFD007566E1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A44067ED2050DDFD007566E1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A44067F12050DDFD007566E1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A44067F22050DDFD007566E1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A440680D2050DDFD007566E1 /* Debug */ = {
@@ -428,9 +482,11 @@
 		};
 		A44068102050DDFD007566E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88824BADD97B0810FDEC2E0D /* Pods-代理.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5QHQ4M8Q3;
 				INFOPLIST_FILE = "代理/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.delete.--";
@@ -441,9 +497,11 @@
 		};
 		A44068112050DDFD007566E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38B38325FE9EFEE6A2C0053F /* Pods-代理.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5QHQ4M8Q3;
 				INFOPLIST_FILE = "代理/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.delete.--";
